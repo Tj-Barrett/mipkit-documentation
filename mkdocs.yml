@@ -1,0 +1,72 @@
+site_name: BMBT MIPkit
+# site_url: https://tjbarrett.org/
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+theme:
+  name: material
+  logo: assets/MIPfavicon.png
+  favicon: assets/MIPfavicon.png
+  font:
+    code: false # Noto Sans
+  features:
+    - navigation.path
+    - navigation.tabs
+    - navigation.footer
+    - navigation.prune
+    - navigation.indexes
+    - header.autohide
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+nav:
+  - index.md 
+  - installation.md
+  - Quickstart:
+    - quickstart/index.md
+    - Tutorial - Caffeine: quickstart/caffeine.md
+    - Tutorial - CD20: quickstart/cd20.md
+  - docking.md
+  - polymerization.md
+  - CLI:
+    - cli/index.md
+    - -screen: cli/screen.md
+    - -gmxscreen: cli/gmxscreen.md
+    - -dock: cli/dock.md
+    - -react: cli/react.md
+    - -interact: cli/interact.md
+    # - -visualize: cli/visualize.md
+    - -cost: cli/cost.md
+    - utilities: cli/utilities.md
+  # - Documentation:
+  #   - documentation/index.md
+  #   - utils: documentation/utils.md
+  - fms.md
+  - solv-ints.md
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://www.uni-kiel.de/en/tf/research/institute-materials-science/biomaterials-and-biosensors
+    - icon: fontawesome/brands/github 
+      link: https://github.com/Tj-Barrett/mipkit
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<barrett.t@northeastern.edu>
+
+# copyright: Copyright &copy; 2025 Thomas Barrett and BMBT
+
+plugins:
+    - with-pdf  
+    - mkdocs-jupyter
+#   - privacy:
+#     enabled: !ENV [CI, false]
+#     cache: false
+#     log: false
