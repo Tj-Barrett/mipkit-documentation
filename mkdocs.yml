@@ -23,7 +23,7 @@ theme:
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
-      primary: blue grey
+      primary: deep purple
       accent: blue
     # Palette toggle for dark mode
     - scheme: slate
