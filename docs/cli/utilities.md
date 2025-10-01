@@ -11,6 +11,8 @@ These commands are useful utilities that aren't necessary used in the main polym
 
 **-ABN :** `none` <br> Prints out acidic/basic/neutral breakdown of amino acids for reference.
 
+**-print_feats :** `none` <br> Prints out a list of all FMs with their costs in (eur/mMol) and (eur/Mol).
+
 **-print_feats :** `none` <br> Writes out a csv and images of RDkit pharmacophore features for all FMs and amino acids.
 
 **-print_fms :** `none` <br> Prints out a list of all FMs and their encoded names.

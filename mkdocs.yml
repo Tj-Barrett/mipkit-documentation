@@ -63,9 +63,9 @@ extra:
 
 # copyright: Copyright &copy; 2025 Thomas Barrett and BMBT
 
-plugins:
-    - with-pdf  
-    - mkdocs-jupyter
+#plugins:
+#    - with-pdf  
+#    - mkdocs-jupyter
 #   - privacy:
 #     enabled: !ENV [CI, false]
 #     cache: false
