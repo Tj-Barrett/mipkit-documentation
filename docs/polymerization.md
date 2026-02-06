@@ -8,6 +8,11 @@ hide:
 
 ---
 
+<figure markdown="span">
+![Image](./assets/Polymerization%20Reaction.png ){: style="transform: scale(0.75);"}
+  <figcaption>Overview of MIPkit procedure, made with Biorender.</figcaption>
+</figure>
+
 MIPkit supports two methods of polymerization, implicit and explicit. 
 
 * ***Implicit*** functions off of a single C-C distance cutoff, typically between 3 and 4 Angstrom. 

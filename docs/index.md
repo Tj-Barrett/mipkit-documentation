@@ -20,12 +20,6 @@ Molecularly Imprinted Polymers (MIPs) are synthetic recognition elements tailore
 
 ## Purpose
 
-<figure markdown="span">
-![Image](./assets/MIPkit.png ){: style="transform: scale(0.75);"}
-  <caption>(A) Polymerization steps of MIPkit. First, a template is identified within a protein, after which it is docked and polymerized. (B) Templates and Recipes are inputs for screening and docking, which allows MIPkit to develop precomplex structures for polymerization simulations. Final MIPs and NIPs can be analyzed with the standard range of GROMACS tools, but is coded to auto export Lennard-Jones and Coulombic energies, Radial Distribution Functions, and H-Bond counts of FM-Template and FM-Amino Acid pairings. (C) MIPkit's polymerization can proceed as either explicit or implicit. Implicit omits initiators, while explicit relies on them. More information on supported initiators can be found under "Supported Solvents and Initiators".</caption>
-  <figcaption>Made with Biorender.</figcaption>
-</figure>
-
 MIPkit is designed to simplify the MIP recipe development process by standardizing libraries, docking procedures, and GROMACS environments. Given an identified template, functional monomers can be screened, allowing for selection of best performing monomers. From here, a recipe can be developed and docked to the template. This provides the precomplex structure that can be polymerized to develop MIPs and NIPs for comparison.
 
 ## Bioinspired Materials and Biosensor Technologies (BMBT)
